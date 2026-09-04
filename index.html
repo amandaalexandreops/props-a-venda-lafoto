@@ -90,6 +90,15 @@ h2{font-family:Fraunces,Georgia,serif; font-size:24px; font-weight:600;
   border:none; cursor:pointer}
 .btn:hover{background:var(--zap-esc)}
 
+/* item com quantidade a confirmar */
+.item.consultar{border-color:#8A5A12}
+.selo-c{display:none}
+.item.consultar .selo-c{display:block; position:absolute; top:12px; left:0;
+  background:#8A5A12; color:#fff; font-size:11px; letter-spacing:.1em;
+  text-transform:uppercase; font-weight:700; padding:5px 12px}
+.btn-c{background:#FBF0DA; color:#6b4610; border:1px solid #8A5A12}
+.btn-c:hover{background:#f5e4c4}
+
 /* marque como vendido: <article class="item vendido" ...> */
 .item.vendido{opacity:.62}
 .item.vendido .foto img{filter:grayscale(1)}
@@ -192,7 +201,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="estrela">
         <div class="foto"><img src="fotos/estrela.jpg" alt="Estrela decorativa 720 LED — 50 cm" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Estrela decorativa 720 LED — 50 cm</h3>
           <p class="preco">R$ 249</p>
@@ -204,7 +213,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="pisca">
         <div class="foto"><img src="fotos/pisca.jpg" alt="3 cascatas de estrela LED" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>3 cascatas de estrela LED</h3>
           <p class="preco">R$ 89 <span>as 3</span></p>
@@ -216,7 +225,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="estrelasdouradas">
         <div class="foto"><img src="fotos/estrelasdouradas.jpg" alt="2 estrelas de glitter dourado" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>2 estrelas de glitter dourado</h3>
           <p class="preco">R$ 99 <span>as 2</span></p>
@@ -228,7 +237,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="cordao">
         <div class="foto"><img src="fotos/cordao.jpg" alt="Cordão LED 60 bolinhas globo cristal — 15 m" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Cordão LED 60 bolinhas globo cristal — 15 m</h3>
           <p class="preco">R$ 29</p>
@@ -240,7 +249,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="vermelhas">
         <div class="foto"><img src="fotos/vermelhas.jpg" alt="Kit 30 bolas de Natal vermelhas decoradas" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Kit 30 bolas de Natal vermelhas decoradas</h3>
           <p class="preco">R$ 109 <span>o lote</span></p>
@@ -252,7 +261,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="lacos">
         <div class="foto"><img src="fotos/lacos.jpg" alt="Kit 24 laços de Natal + 7 enfeites" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Kit 24 laços de Natal + 7 enfeites</h3>
           <p class="preco">R$ 169 <span>o kit</span></p>
@@ -264,7 +273,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="brancas18">
         <div class="foto"><img src="fotos/brancas18.jpg" alt="24 bolas brancas grandes de 10 cm" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>24 bolas brancas grandes de 10 cm</h3>
           <p class="preco">R$ 169 <span>o lote</span></p>
@@ -276,7 +285,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="sortidas">
         <div class="foto"><img src="fotos/sortidas.jpg" alt="Lote de 64 bolas brancas sortidas" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Lote de 64 bolas brancas sortidas</h3>
           <p class="preco">R$ 79 <span>o lote</span></p>
@@ -288,7 +297,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="guirlanda">
         <div class="foto"><img src="fotos/guirlanda.jpg" alt="Guirlanda de Natal 60 cm com frutas e pinhas" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Guirlanda de Natal 60 cm com frutas e pinhas</h3>
           <p class="preco">R$ 89</p>
@@ -297,22 +306,22 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
           <button class="btn" data-nome="Guirlanda de Natal 60 cm com frutas e pinhas" data-preco="89"><span>Eu quero esse</span></button>
         </div>
       </article>
-      <article class="item" id="ursinhos">
+      <article class="item consultar" id="ursinhos">
         <div class="foto"><img src="fotos/ursinhos.jpg" alt="Ursinhos com suéter listrado — vendidos por unidade" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Ursinhos com suéter listrado — vendidos por unidade</h3>
           <p class="preco">R$ 35 ou R$ 59 <span>cada</span></p>
           <p class="desc">Ursinhos caramelo de pelo cacheado, <b>vestindo suéter listrado vermelho e branco</b>. São vários, em dois tamanhos: os menores, de 21 a 30 cm, saem por R$ 35, e os maiores, de 40 a 50 cm, por R$ 59. Você escolhe quantos quiser. <b>Não confundir com o urso grande sem roupa</b>, que é outro anúncio.</p>
           <p class="estado"><b>Estado:</b> Pelúcia limpa, suéteres inteiros.</p>
-          <button class="btn" data-nome="Ursinhos com suéter listrado — vendidos por unidade" data-preco="35" data-precotxt="R$ 35 ou R$ 59"><span>Eu quero esse</span></button>
+          <a class="btn btn-c" target="_blank" rel="noopener" href="#" data-ask="Ursinhos com suéter listrado — vendidos por unidade">Perguntar sobre esse</a>
         </div>
       </article>
       <article class="item" id="almofadas">
         <div class="foto"><img src="fotos/almofadas.jpg" alt="3 capas de almofada de Natal bordadas" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>3 capas de almofada de Natal bordadas</h3>
           <p class="preco">R$ 149 <span>as 3</span></p>
@@ -324,7 +333,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="ursogrande">
         <div class="foto"><img src="fotos/ursogrande.jpg" alt="Urso grande sem roupa — 50 cm" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Urso grande sem roupa — 50 cm</h3>
           <p class="preco">R$ 59</p>
@@ -348,10 +357,22 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
 
 <h2>Props e mobiliário de estúdio</h2>
 <div class="grade">
+      <article class="item" id="impressora">
+        <div class="foto"><img src="fotos/impressora.jpg" alt="Impressora fotográfica Citizen CY-02 + 3 cartuchos" loading="lazy"
+             onload="this.closest('.foto').classList.remove('vazio')"
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
+        <div class="txt">
+          <h3>Impressora fotográfica Citizen CY-02 + 3 cartuchos</h3>
+          <p class="preco">R$ 4.900 <span>o conjunto</span></p>
+          <p class="desc">Impressora térmica de sublimação profissional, <b>comprada nova em fevereiro de 2025 e pouco usada</b>. É a impressão dentro do estúdio: a foto sai pronta na hora, em qualidade de laboratório, e você para de depender de gráfica no meio da temporada. <b>Vai com três cartuchos:</b> um 10×15 novo e lacrado, que sozinho custa R$ 2.230,80, mais um 10×15 e um 10×21 abertos, com material restante.</p>
+          <p class="estado"><b>Estado:</b> Em perfeito funcionamento, com pouco uso.</p>
+          <button class="btn" data-nome="Impressora fotográfica Citizen CY-02 + 3 cartuchos" data-preco="4900" data-precotxt="R$ 4.900"><span>Eu quero esse</span></button>
+        </div>
+      </article>
       <article class="item" id="reborn">
         <div class="foto"><img src="fotos/reborn.jpg" alt="Bebê reborn de silicone com enxoval e certidão" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Bebê reborn de silicone com enxoval e certidão</h3>
           <p class="preco">R$ 99</p>
@@ -363,7 +384,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="banquinho">
         <div class="foto"><img src="fotos/banquinho.jpg" alt="Banquinho newborn de madeira com encosto" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Banquinho newborn de madeira com encosto</h3>
           <p class="preco">R$ 139</p>
@@ -375,7 +396,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="coelho">
         <div class="foto"><img src="fotos/coelho.jpg" alt="Coelho de madeira com rodinhas — pátina branca" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Coelho de madeira com rodinhas — pátina branca</h3>
           <p class="preco">R$ 59</p>
@@ -387,7 +408,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="bacia">
         <div class="foto"><img src="fotos/bacia.jpg" alt="Bacia branca grande — 40 cm" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Bacia branca grande — 40 cm</h3>
           <p class="preco">R$ 69</p>
@@ -399,7 +420,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="pelego">
         <div class="foto"><img src="fotos/pelego.jpg" alt="Pelego sintético branco de pelo alto" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Pelego sintético branco de pelo alto</h3>
           <p class="preco">R$ 49 <span>cada</span></p>
@@ -411,7 +432,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="tapetes">
         <div class="foto"><img src="fotos/tapetes.jpg" alt="3 tapetes peludos brancos — 2,00 × 1,50 m" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>3 tapetes peludos brancos — 2,00 × 1,50 m</h3>
           <p class="preco">R$ 59 <span>cada</span></p>
@@ -423,7 +444,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="cortina">
         <div class="foto"><img src="fotos/cortina.jpg" alt="Cortina de cristais acrílicos" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Cortina de cristais acrílicos</h3>
           <p class="preco">R$ 69 <span>o conjunto</span></p>
@@ -435,7 +456,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="gotas">
         <div class="foto"><img src="fotos/gotas.jpg" alt="Lote de gotas de cristal acrílico facetadas" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Lote de gotas de cristal acrílico facetadas</h3>
           <p class="preco">R$ 35 <span>o lote</span></p>
@@ -447,7 +468,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="rosa">
         <div class="foto"><img src="fotos/rosa.jpg" alt="7 gotas de acrílico rosa claro" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>7 gotas de acrílico rosa claro</h3>
           <p class="preco">R$ 15 <span>o lote</span></p>
@@ -459,7 +480,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="cesto">
         <div class="foto"><img src="fotos/cesto.jpg" alt="Cesto redondo de madeira branca para bebê sentar" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Cesto redondo de madeira branca para bebê sentar</h3>
           <p class="preco">R$ 189</p>
@@ -471,7 +492,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="caminhao">
         <div class="foto"><img src="fotos/caminhao.jpg" alt="Caminhão de madeira rústica — tamanho grande" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Caminhão de madeira rústica — tamanho grande</h3>
           <p class="preco">R$ 299</p>
@@ -483,7 +504,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="smash">
         <div class="foto"><img src="fotos/smash.jpg" alt="Cadeira infantil de madeira branca com mesinha" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Cadeira infantil de madeira branca com mesinha</h3>
           <p class="preco">R$ 179 <span>o conjunto</span></p>
@@ -495,7 +516,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="banqueta">
         <div class="foto"><img src="fotos/banqueta.jpg" alt="Banqueta rústica de madeira maciça" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Banqueta rústica de madeira maciça</h3>
           <p class="preco">R$ 319</p>
@@ -504,10 +525,22 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
           <button class="btn" data-nome="Banqueta rústica de madeira maciça" data-preco="319"><span>Eu quero esse</span></button>
         </div>
       </article>
+      <article class="item" id="mesastill">
+        <div class="foto"><img src="fotos/mesastill.jpg" alt="Mesa still 60 × 100 cm para foto de produto" loading="lazy"
+             onload="this.closest('.foto').classList.remove('vazio')"
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
+        <div class="txt">
+          <h3>Mesa still 60 × 100 cm para foto de produto</h3>
+          <p class="preco">R$ 249</p>
+          <p class="desc">Mesa still dobrável de 60 × 100 cm, com tampo branco translúcido curvo e estrutura de metal — o fundo infinito pronto para foto de produto, com luz podendo vir por baixo. <b>Foi pouquíssimo usada.</b></p>
+          <p class="estado"><b>Estado:</b> Praticamente nova. Tampo sem riscos, estrutura firme, dobra e guarda em pé.</p>
+          <button class="btn" data-nome="Mesa still 60 × 100 cm para foto de produto" data-preco="249"><span>Eu quero esse</span></button>
+        </div>
+      </article>
       <article class="item" id="cubos">
         <div class="foto"><img src="fotos/cubos.jpg" alt="Kit 3 cubos de MDF branco" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Kit 3 cubos de MDF branco</h3>
           <p class="preco">R$ 329 <span>o kit</span></p>
@@ -519,7 +552,7 @@ footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--edge);
       <article class="item" id="orquideacascata">
         <div class="foto"><img src="fotos/orquideacascata.jpg" alt="Lote de hastes de orquídea artificial" loading="lazy"
              onload="this.closest('.foto').classList.remove('vazio')"
-             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span></div>
+             onerror="this.closest('.foto').classList.add('vazio')"><span class="sem">foto em breve<br>pergunte pelo WhatsApp</span><span class="selo">Vendido</span><span class="selo-c">Quantidade a confirmar</span></div>
         <div class="txt">
           <h3>Lote de hastes de orquídea artificial</h3>
           <p class="preco">R$ 149 <span>o lote</span></p>
@@ -605,6 +638,13 @@ Item marcado como <b>Vendido</b> já saiu.<br>
       b.querySelector("span").textContent = "Eu quero esse";
     });
     pinta();
+  });
+
+  document.querySelectorAll(".btn-c").forEach(function(a){
+    if (!ok) return;
+    a.href = "https://wa.me/" + num + "?text=" + encodeURIComponent(
+      "Oi! Vi no catálogo: " + a.dataset.ask +
+      ". Ainda estão disponíveis, e quantos vocês têm?");
   });
 
   var nav = document.getElementById("navZap");
